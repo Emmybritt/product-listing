@@ -19,7 +19,9 @@ const CartsList = () => {
         <h3 className="text-heading-5 w-fit m-auto text-gray-600">
           Your cart is empty
         </h3>
-      ) : null}
+      ) : (
+        <button className="bg-primary button w-full">Buy All</button>
+      )}
     </ProductsContainer>
   );
 };

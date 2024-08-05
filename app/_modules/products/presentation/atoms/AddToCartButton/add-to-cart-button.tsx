@@ -18,7 +18,7 @@ const AddToCart = ({ product }: AddToCartProps) => {
       onClick={() =>
         isAdded ? removeProduct(product.product_id) : addProduct(product)
       }
-      className="bg-green button ml-[1rem]"
+      className="bg-green button sm:ml-[1rem]"
     >
       {isAdded ? "Remove from Cart" : "Add to Cart"}
     </button>

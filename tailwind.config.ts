@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        xs: "357px",
+      },
       fontSize: {
         "body-micro": ["1.2rem", { lineHeight: "1.573rem" }],
         "body-small": ["1.4rem", { lineHeight: "1.573rem" }],
