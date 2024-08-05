@@ -114,8 +114,11 @@ For this application, I followed the Domain Driven Design Architecture and Atomi
 
 ## Bonus
 
-Implemented the carts functionality - users can add a product to the cart and view the added products. *LocalStorage* is used to persist the carts' data.
+- Implemented the carts functionality - users can add a product to the cart and view the added products. *LocalStorage* is used to persist the carts' data.
 
+- Add Product Page: Users can add a new product to the store. The product data is sent to the backend API, and upon successful addition, the product list is revalidated to include the new product.
+
+- View Product Details: Users can view detailed information about a specific product. This includes a detailed description, price, and any other relevant information.
   
 
 ## Deploy on Vercel
