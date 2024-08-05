@@ -5,7 +5,7 @@ interface ProductsContainerProps {
 }
 
 const ProductsContainer = ({ children }: ProductsContainerProps) => {
-  return <div className="px-[16%]">{children}</div>;
+  return <div className="px-[4px] md:px-[8px] lg:px-[16%]">{children}</div>;
 };
 
 export default ProductsContainer;

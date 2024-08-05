@@ -1,6 +1,5 @@
 "use client";
 import { TextInput } from "@/app/_commons/components/atoms/TextInput/text-input";
-import clsx from "clsx";
 import { useRef, useState } from "react";
 
 const ProductForm = () => {

@@ -27,11 +27,10 @@ const ProductDetailsCard = ({ product }: ProductDetailsCardProps) => {
         </div>
         <div className="mt-[1.5rem]">
           <span>Quantity in stock: </span>
-          <span className="font-bold">${product.price}</span>
+          <span className="font-bold">10</span>
         </div>
         <div className="flex items-center mt-[1.5rem]">
           <button className="bg-primary button">Buy Now</button>
-          <AddToCart product={product} />
         </div>
       </div>
     </div>
